@@ -1,0 +1,24 @@
+{
+  "name": "medbooks-agent-system",
+  "version": "1.0.0",
+  "description": "WhatsApp-native AI agent system for a medical books & journals business: sales, inventory, dispatch handoff, logistics tracking, feedback, and daily reporting.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "body-parser": "^1.20.2",
+    "node-cron": "^3.0.3",
+    "qrcode": "^1.5.4",
+    "pdfkit": "^0.15.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
